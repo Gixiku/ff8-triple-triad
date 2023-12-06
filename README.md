@@ -1,1 +1,1 @@
-# FF8-Triple_Triad
+# FF8 Triple Triad
