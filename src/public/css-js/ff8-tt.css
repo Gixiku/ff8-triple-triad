@@ -20,12 +20,12 @@
 	left: 155px;
 }
 
-#tt-board #cards-deck #cards-holders {
+#tt-board #cards-deck .cards-holders {
 	margin: 0;
 	padding: 0;
 }
 
-#tt-board #cards-deck #cards-holders li {
+#tt-board #cards-deck .cards-holders li {
 	display: inline-block;
 	width: 93px;
 	height: 120px;
@@ -33,33 +33,33 @@
 	cursor: pointer;
 }
 
-#tt-board #cards-deck #cards-holders li img {
+#tt-board #cards-deck .cards-holders li img {
 	cursor: default;
 }
 
-#tt-board #players-deck {
+#tt-board .players-deck {
 	position: absolute;
 	top: 100px;
 	left: 50px;
 }
 
-#tt-board #players-deck #cards-holders {
+#tt-board .players-deck .cards-holders {
 	margin: 0;
 	padding: 0;
 }
 
-#tt-board #players-deck.player-one {
+#tt-board .players-deck.player-one {
 	left: inherit;
 	right: 50px;
 }
 
-#tt-board #players-deck #cards-holders li {
+#tt-board .players-deck .cards-holders li {
 	display: block;
 	width: 93px;
 	height: 120px;
 	margin-top: -65px;
 }
 
-#tt-board #players-deck #cards-holders li img {
+#tt-board .players-deck .cards-holders li img {
 	cursor: pointer;
 }
